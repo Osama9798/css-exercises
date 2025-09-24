@@ -5,25 +5,65 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 7vh;
   background: darkmagenta;
   color: white;
+  align-items: center;
+  display: flex;
+  padding: 15px ;
+  font-weight: bold;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .sidebar {
-  width: 300px;
+  width: 350px;
   background: royalblue;
   box-sizing: border-box;
+  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 30px;
+  width:22.922vw;
+  height: 25vh;;
+  box-shadow: 1 2 1;
+  margin:3.416vh;
+}
+a,li{
+  text-decoration: none;
+  list-style-type: none;
+  color:#eee;
+  font-size: large;
+  
+
+}
+ul{
+  gap:5vh;
+  display:flex ;
+  flex-direction:column ;
+ 
+}
+.content{
+  display:flex;
+  
+  
+}
+.tiles{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:20px
+  
 }
